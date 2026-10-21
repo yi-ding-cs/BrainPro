@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/brainpro-logo.png" alt="BrainPro v1 logo" width="160">
+  <img src="assets/brainpro-logo.png" alt="BrainPro v1 logo" width="120">
 </p>
 
 <h1 align="center">BrainPro</h1>
