@@ -221,10 +221,8 @@ Obtain data from its original providers. Use these input folders with `--raw-dir
 | MentalArithmetic | `Subject*.edf` from the MWL dataset | 20 |    4 s | 1,080 |
 | ATTEN | `VP001/gonogo1.vhdr` and companion files, 26 subjects × 3 sessions | 28 |    4 s | 4,680 |
 | SEED-VII | Per-subject `.mat` files containing `eeg_1` through `eeg_80` from `EMO_SEED_VII/Preprocessed_EEG` | 62 |    1 s | 281,679 |
-| Speech | `Training set/` and `Validation set/` containing the supplied EEG `.mat` files | 64 | 800 samples* | 5,250 |
+| Speech | `Training set/` and `Validation set/` containing the supplied EEG `.mat` files | 64 | 800 | 5,250 |
 | Mumtaz2016 | Healthy and MDD subjects’ EC/EO `.edf` files in the raw directory; TASK recordings excluded | 19 |    4 s | 8,860 |
-
-*Speech retains the evaluated handling: each 795-sample trial is zero-padded to 800 samples and arranged into four 200-sample blocks. This does not resample the original trial into a true four-second recording.
 
 ```bash
 python preprocess_downstream.py FACED --raw-dir /path/to/EMO_FACED/Processed_data --output-dir data/FACED
