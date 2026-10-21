@@ -1,0 +1,38 @@
+{
+  "AFFCT": [
+    "seed-3.hdf5",
+    "seed-4.hdf5",
+    "emobrain.hdf5",
+    "angersurprise.hdf5",
+    "seed-french.hdf5",
+    "seed-german.hdf5",
+    "seed-neg.hdf5",
+    "luoshuaiart.hdf5",
+    "seed-sleep-emo3.hdf5",
+    "seed-sleep.hdf5",
+    "seed-sleep2.hdf5"
+  ],
+  "MOTOR": [
+    "grasplifteeg.hdf5",
+    "motormovementimagery.hdf5",
+    "koreaU_h5.hdf5",
+    "hgd_h5_wb.hdf5"
+  ],
+  "OTHER": [
+    "restingstate.hdf5",
+    "tuhepilepsy.hdf5",
+    "tuhepilepsy_19.hdf5",
+    "tuhepilepsy_21.hdf5",
+    "tuhseizure.hdf5",
+    "tuhseizure_19.hdf5",
+    "tuhseizure_19_2.hdf5",
+    "tuhslowing.hdf5",
+    "sienascalpeeg.hdf5",
+    "raweegdata.hdf5",
+    "confidence-figure-p1.hdf5",
+    "confidence-figure-p2.hdf5",
+    "confidence-text.hdf5",
+    "targetversusnon.hdf5",
+    "spisrestingstate.hdf5"
+  ]
+}

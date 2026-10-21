@@ -1,0 +1,15 @@
+{
+  "model": "brainpro_base",
+  "batch_size": 32,
+  "epochs": 30,
+  "warmup_epochs": 2,
+  "opt": "adamw",
+  "lr": 0.0001,
+  "min_lr": 0.00001,
+  "opt_betas": [0.9, 0.98],
+  "weight_decay": 0.05,
+  "clip_grad": 3,
+  "patch_size": 20,
+  "patch_stride": 20,
+  "gradient_accumulation_steps": 1
+}

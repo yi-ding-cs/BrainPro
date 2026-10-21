@@ -1,0 +1,12 @@
+torch
+torchvision
+timm
+numpy
+scipy
+mne
+einops
+h5py
+lmdb
+scikit-learn
+tqdm
+tensorboardX
