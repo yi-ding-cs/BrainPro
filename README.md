@@ -397,3 +397,6 @@ We thank the authors of [LaBraM](https://github.com/935963004/LaBraM)
 and [CBraMod](https://github.com/wjq-learning/CBraMod) for making their
 code publicly available. Their implementations provided valuable
 references for developing BrainPro and its experimental pipelines.
+
+## Contact
+ding.yi@ntu.edu.sg
