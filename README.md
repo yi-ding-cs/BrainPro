@@ -28,7 +28,7 @@
 
 BrainPro learns shared and process-specific EEG representations for downstream decoding across emotion, motor, speech, mental arithmetic, depression, and attention tasks. This repository contains BrainPro-base pre-training, preprocessing and fine-tuning for nine benchmarks, and a standalone model for integration into your own pipeline.
 
-Read the [paper on arXiv](https://arxiv.org/abs/2509.22050). The linked preprint currently uses the earlier title, *BrainPro: Towards Large-scale Brain State-aware EEG Representation Learning*.
+Read the [paper on arXiv](https://arxiv.org/abs/2509.22050).
 
 ## News
 
@@ -373,11 +373,22 @@ Loading a pre-training checkpoint restores encoder weights and resets temporal p
 ## Citation and licensing
 
 ```bibtex
-@inproceedings{ding2026brainpro,
-  title={BrainPro: Process-conditioned Pretraining with Topographic Retrieval for Large EEG Models},
-  author={Ding, Yi and Jiang, Muyun and Jiang, Weibang and Zhang, Shuailei and Zhou, Xinliang and Liu, Chenyu and Li, Shanglin and Li, Yong and Guan, Cuntai},
-  booktitle={Advances in Neural Information Processing Systems},
-  year={2026}
+@inproceedings{
+ding2026brainpro,
+title={BrainPro: Process-conditioned Pretraining with Topographic Retrieval for Large {EEG} Models},
+author={Ding, Yi and Jiang, Muyun and Jiang, Weibang and Zhang, Shuailei and Zhou, Xinliang and Liu, Chenyu and Li, Shanglin and Li, Yong and Guan, Cuntai},
+booktitle={The Fortieth Annual Conference on Neural Information Processing Systems},
+year={2026}
+}
+Or
+@misc{ding2026brainproprocessconditionedpretrainingtopographic,
+      title={BrainPro: Process-conditioned Pretraining with Topographic Retrieval for Large EEG Models}, 
+      author={Yi Ding and Muyun Jiang and Weibang Jiang and Shuailei Zhang and Xinliang Zhou and Chenyu Liu and Shanglin Li and Yong Li and Cuntai Guan},
+      year={2026},
+      eprint={2509.22050},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2509.22050}, 
 }
 ```
 
