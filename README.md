@@ -11,7 +11,7 @@
 
 <p align="center">
   <a href="https://arxiv.org/abs/2509.22050"><img src="https://img.shields.io/badge/arXiv-2509.22050-b31b1b" alt="Paper on arXiv"></a>
-  <img src="https://img.shields.io/badge/NeurIPS-2026%20Accepted-6842a6" alt="Accepted at NeurIPS 2026">
+  <img src="https://openreview.net/pdf?id=wrHWTrf4Uv" alt="Accepted at NeurIPS 2026">
   <a href="https://huggingface.co/dycs/BrainPro-V1"><img src="https://img.shields.io/badge/Hugging%20Face-BrainPro-yellow" alt="BrainPro checkpoint on Hugging Face"></a>
   <a href="LICENSE-CBCR"><img src="https://img.shields.io/badge/License-CBCR%201.0-397c82" alt="CBCR License 1.0"></a>
 </p>
@@ -28,7 +28,7 @@
 
 BrainPro learns shared and process-specific EEG representations for downstream decoding across emotion, motor, speech, mental arithmetic, depression, and attention tasks. This repository contains BrainPro-base pre-training, preprocessing and fine-tuning for nine benchmarks, and a standalone model for integration into your own pipeline.
 
-Read the [paper on arXiv](https://arxiv.org/abs/2509.22050).
+Read the [paper](https://openreview.net/pdf?id=wrHWTrf4Uv).
 
 ## News
 
@@ -376,9 +376,10 @@ Loading a pre-training checkpoint restores encoder weights and resets temporal p
 @inproceedings{
 ding2026brainpro,
 title={BrainPro: Process-conditioned Pretraining with Topographic Retrieval for Large {EEG} Models},
-author={Ding, Yi and Jiang, Muyun and Jiang, Weibang and Zhang, Shuailei and Zhou, Xinliang and Liu, Chenyu and Li, Shanglin and Li, Yong and Guan, Cuntai},
+author={Yi Ding and Muyun Jiang and Weibang Jiang and Shuailei Zhang and Xinliang Zhou and Chenyu Liu and Shanglin Li and Yong Li and Cuntai Guan},
 booktitle={The Fortieth Annual Conference on Neural Information Processing Systems},
-year={2026}
+year={2026},
+url={https://openreview.net/forum?id=wrHWTrf4Uv}
 }
 Or
 @misc{ding2026brainproprocessconditionedpretrainingtopographic,
