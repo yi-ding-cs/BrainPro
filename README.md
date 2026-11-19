@@ -11,7 +11,7 @@
 
 <p align="center">
   <a href="https://arxiv.org/abs/2509.22050"><img src="https://img.shields.io/badge/arXiv-2509.22050-b31b1b" alt="Paper on arXiv"></a>
-  <img src="https://openreview.net/pdf?id=wrHWTrf4Uv" alt="Accepted at NeurIPS 2026">
+  <a href="https://openreview.net/pdf?id=wrHWTrf4Uv"><img src="https://img.shields.io/badge/NeurIPS-2026%20Accepted-6842a6" alt="Accepted at NeurIPS 2026"></a>
   <a href="https://huggingface.co/dycs/BrainPro-V1"><img src="https://img.shields.io/badge/Hugging%20Face-BrainPro-yellow" alt="BrainPro checkpoint on Hugging Face"></a>
   <a href="LICENSE-CBCR"><img src="https://img.shields.io/badge/License-CBCR%201.0-397c82" alt="CBCR License 1.0"></a>
 </p>
